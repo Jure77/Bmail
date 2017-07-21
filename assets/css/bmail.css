@@ -1,0 +1,93 @@
+#glava {
+    text-align: center;
+    font-size: 43px;
+    color: gray;
+    font-family: georgia;
+    margin-top: 35px;
+}
+
+h2 {
+    font-size: 17px;
+    font-family: georgia;
+}
+
+#vsebina {
+    background-color: whitesmoke;
+    width: 380px;
+    height: 310px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 35px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+input {
+    height: 42px;
+    width: 300px;
+}
+
+input:hover {
+    border-color: lightgray;
+}
+
+button {
+    height: 42px;
+    width: 310px;
+    background-color: #2C84FF;
+    color: white;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: dodgerblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+#findmyaccount {
+    padding-left: 200px;
+    padding-top: 30px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    color: gray;
+}
+
+#noga {
+    background-color: snow;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#noga>a {
+    padding-left: 30px;
+    font-size: 12px;
+    font-family: arial;
+    color: gray;
+}
+
+.img {
+    float: right;
+    padding-right: 50px;
+}
+
+.img1 {
+    float: right;
+    padding-top: 5px;
+}
+
+body {
+    margin: 0;
+}

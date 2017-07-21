@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %} Bmail | Weather {% endblock %}
+
+{% block heading %} Weather {% endblock %}
+
+{% block body %}
+
+<link rel="stylesheet" href="/assets/css/weather.css">
+    <h2>Weather for Slovenia:</h2>
+    <h4> Rain: {{ weather }} <br/>
+        Clouds: {{ weather_clouds }}
+    </h4>
+
+
+{% endblock %}

@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %} Bmail | sent {% endblock %}
+
+{% block body %}
+<link rel="stylesheet" href="/assets/css/all_messages.css">
+
+    <table class="table table-hover">
+      <thead class="thead-default">
+        <tr>
+            <th>Recipient</th>
+            <th>Subject</th>
+            <th>Text</th>
+            <th>Date</th>
+        </tr>
+      </thead>
+
+    {% for message in all_messages %}
+
+      <tbody>
+        <tr>
+            <td>{{ message.recipient }}</td>
+            <td>{{ message.subject }}</td>
+            <td>{{ message.text }}</td>
+            <td>{{ message.date }}</td>
+        </tr>
+      </tbody>
+
+{% endfor %}
+    </table>
+{% endblock %}
